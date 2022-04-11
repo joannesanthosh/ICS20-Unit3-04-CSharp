@@ -12,6 +12,7 @@ class Program
         // This program converts the temperature from fahrenheit to celsius
         int temperatureInFahrenheit;
         int celsius;
+      
         Console.WriteLine("This program converts the temperature from fahrenheit to celsius.");
         Console.WriteLine("");
 
