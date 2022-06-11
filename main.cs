@@ -27,5 +27,6 @@ class Program
 
         // output
         Console.Write("The temperature in celsius is = " + celsius + "°");
-    }   Console.WriteLine("\nDone.");
+        Console.WriteLine("\nDone.");
+    }
 }
