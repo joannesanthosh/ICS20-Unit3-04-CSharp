@@ -12,17 +12,20 @@ class Program
         // This program converts the temperature from fahrenheit to celsius
         int temperatureInFahrenheit;
         int celsius;
-      
+
+        // input
         Console.WriteLine("This program converts the temperature from fahrenheit to celsius.");
         Console.WriteLine("");
 
         Console.WriteLine("Enter the temperature in fahrenheit.");
         temperatureInFahrenheit = (Convert.ToInt32(Console.ReadLine()));
         Console.WriteLine("");
+
+        // process
         celsius = ((temperatureInFahrenheit - 32) * 5 / 9);
         Console.WriteLine("");
-        Console.Write("The temperature in celsius is = " + celsius + "°");
 
-        Console.WriteLine("\nDone.");
-    }
+        // output
+        Console.Write("The temperature in celsius is = " + celsius + "°");
+    }   Console.WriteLine("\nDone.");
 }
